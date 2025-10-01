@@ -9,12 +9,12 @@ document.addEventListener('alpine:init', () => {
     columnProduction: null,
     columnMeter: null,
 
-    batteryCapacity: 10, // kWh
-    batteryMaxChargeRate: 5, // kW
-    batteryMaxDischargeRate: 5, // kW
+    batteryCapacity: 13.8, // kWh
+    batteryMaxChargeRate: 7, // kW
+    batteryMaxDischargeRate: 7, // kW
     batteryInitialSoc: 30, // percentage
 
-    batteryCost: 5000, // currency units
+    batteryCost: 7500, // currency units
     tariffImport: 0.2673, // currency amount per kWh for import from grid
     tariffExport: 0.0640, // currency amount per kWh for export to grid
 
